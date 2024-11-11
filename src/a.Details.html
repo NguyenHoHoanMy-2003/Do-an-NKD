@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Health Monitor</title>
+    <link rel="stylesheet" href="css/details.css">
+</head>
+<body>
+<main>
+    <!-- Pet Profile Section -->
+    <section class="pet-profile">
+        <h2>Pet Details</h2>
+        <div class="pet-info">
+            <img src="pet-image.jpg" alt="Pet Image" class="pet-image">
+            <div class="pet-details">
+                <h3>Name: Zalo</h3>
+                <p>Breed: Da Nang</p>
+                <p>Age: 9 years</p>
+                <p>Weight: 28 kg</p>
+                <p>Sex: Female</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Health Details Section -->
+    <section class="health-details">
+        <h2>Health Details</h2>
+        <div class="health-stats">
+            <div class="stat-card">
+                <h3>Heart Rate</h3>
+                <p id="heartRate">Loading...</p>
+            </div>
+            <div class="stat-card">
+                <h3>Temperature</h3>
+                <p id="temperature">Loading...</p>
+            </div>
+    </section>
+
+    <!-- Health History Section -->
+    <section class="health-history">
+        <h2>Health History</h2>
+        <p>View the heart rate and temperature history of your pet.</p>
+        <!-- Placeholder for chart/graph -->
+        <div class="chart-placeholder">Graph will be displayed here</div>
+    </section>
+    
+</main>
+<script src="js/main.js"></script>
+<script src="js/firebaseConfig.js"></script>
+</body>
+</html>
+
+    

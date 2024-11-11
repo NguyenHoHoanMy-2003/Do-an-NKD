@@ -1,0 +1,134 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+
+    /* background-image: url('background.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-attachment: scroll */
+}
+
+/* Main Styling */
+main {
+    width: 90%;
+    max-width: 1200px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+/* Pet Profile Section */
+.pet-profile {
+    margin-bottom: 30px;
+}
+
+.pet-profile h2 {
+    font-size: 2.5rem;
+    color: #0073e6;
+    margin-bottom: 15px;
+}
+
+.pet-info {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.pet-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.pet-details h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.pet-details p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+/* Health Details Section */
+.health-details {
+    margin-bottom: 30px;
+}
+
+.health-details h2 {
+    font-size: 2rem;
+    color: #0073e6;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.health-stats {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.stat-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    flex: 1;
+}
+
+.stat-card h3 {
+    font-size: 1.5rem;
+    color: #0073e6;
+    margin-bottom: 10px;
+}
+
+.stat-card p {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+
+/* Health History Section */
+.health-history {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.health-history h2 {
+    font-size: 2rem;
+    color: #0073e6;
+    margin-bottom: 10px;
+}
+
+.health-history p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+.chart-placeholder {
+    width: 100%;
+    height: 300px;
+    background-color: #f4f4f4;
+    border: 2px dashed #0073e6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #555;
+    font-size: 1.2rem;
+}
